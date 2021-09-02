@@ -1,0 +1,17 @@
+[ignore]
+.*/lib/.*
+.*/dist/.*
+.*/coverage/.*
+.*/resources/.*
+
+[include]
+
+[libs]
+
+[options]
+suppress_comment=\\(.\\|\n\\)*\\$FlowFixMe\\($\\|[^(]\\|(\\(<VERSION>\\)?)\\)
+suppress_comment=\\(.\\|\n\\)*\\$FlowIssue\\((\\(<VERSION>\\)?)\\)?:? #[0-9]+
+suppress_comment=\\(.\\|\n\\)*\\$DisableFlowOnNegativeTest
+
+[version]
+^0.94.0
